@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+    <!-- fontawesome and bootstrap cdn links -->
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <!-- link to stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Main2</title>
+</head>
+
+<body id="mainbody" style="height:80vh;">
+    <!-- START HERE -->
+    
+<!-- container for boxshadow -->
+    <div class="externalcontainer boxshadow h-80  align-items-center" style="margin: 1em; 
+   border-radius:15px;">
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2  mainnavradius mainnavshadow">
+    <a href="main2.html"
+    class="navbar-brand ">
+    <img class="img-fluid"
+        src="img/TBS-Logo-smaller-transparent.png"
+        width="125" height="75"
+        alt=""></a>
+<button class="navbar-toggler"
+    data-target="#navbarCollapse"
+    data-toggle="collapse"
+    aria-controls="my-nav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span
+        class="navbar-toggler-icon"></span>
+</button>
+<div id="navbarCollapse"
+    class="collapse navbar-collapse">
+    <!-- welcome name -->
+    <ul class="navbar-nav ml-auto">
+        <!-- life objectives menu -->
+        <li
+            class="nav-item dropdown mr-3">
+            <a href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown">
+                Life Objectives
+            </a>
+            <!-- life objectives sub-menu items -->
+            <div
+                class="dropdown-menu ">
+                <a href="#"
+                    class="dropdown-item">
+                    Family
+                </a>
+                <a href="#"
+                    class="dropdown-item">
+                    Home
+                </a>
+                <a href="#"
+                    class="dropdown-item">
+                    Entertainment
+                </a>
+                <a href="#"
+                    class="dropdown-item">
+                    Work/Business
+                </a>
+                <a href="#"
+                    class="dropdown-item">
+                    Health/Charity
+                </a>
+            </div>
+
+            <!-- rank goals menu -->
+        <li class="nav-item">
+            <a href="#"
+                class="nav-link"
+                href="#">Rank you
+                Goals</a>
+        </li>
+
+        <!-- financial snaphshot menu -->
+        <li class="nav-item">
+            <a href="#"
+                class="nav-link"
+                href="#">Your
+                Financial Snapshot</a>
+        </li>
+
+        <!-- working on my goals menu -->
+        <li class="nav-item">
+            <a href="#"
+                class="nav-link"
+                href="#">Working on my
+                Goals</a>
+        </li>
+
+        <!-- bell icon -->
+        <a href="login.php"
+            class="nav-link">
+            <i
+                class="fas fa-bell fa-lg pr-4 bellicon"></i>
+        </a>
+        <!-- dropdown profile -->
+        <li
+            class="nav-item1 dropdown mr-3">
+            <a href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown">
+                <img src="img/profileimg.png"
+                    class="img-fluid rounded-circle"
+                    style="height: 35px; width:35px;"
+                    alt=""> Hi,
+                Monique
+            </a>
+            <!-- dropdown items -->
+            <div
+                class="dropdown-menu">
+                <a href="profile.php"
+                    class="dropdown-item">
+                    <i
+                        class="fas fa-user-circle"></i>
+                    Profile
+                </a>
+                <a href="settings.php"
+                    class="dropdown-item">
+                    <i
+                        class="fas fa-cog"></i>
+                    Settings
+                </a>
+
+            </div>
+        </li>
+    </ul>
+</div>
+</nav>
+
+<div class="row">
+    <div class="col-lg-3">
+        <!-- STATUS LABELS -->
+        <div class="row justify-content-between ml-4">
+            <div class="col-sm-3">
+                Recent
+            </div>
+            <div class="col-sm-4">
+                Completed
+            </div>
+            <div class="col-sm-3">
+                InProgress
+            </div>
+            <div class="col-sm-2">
+                ...
+            </div>
+            <br>
+        </div> <br>
+
+        <!-- LIFE OBJECTIVE MENU HEADER -->
+        <div class="menuOverFlowScroll">
+        <h6 class="lifeobjmenu ml-4">LIFE OBJECTIVES</h6>
+        <!-- MENU ITEMS -->
+        
+        <div class="card d-none d-lg-block ml-3 my-0 p-0">
+                <div class="card-img-top d-flex align-items-lg-center bg-white text-black  ">
+                    <div>
+                        <img class="img-fluid" src="img/icon_Life.png" style="height:40px; width:40px;">
+                    </div>
+                    <p class="ml-2 p-0 m-0">Family <br>
+                        Lorem ipsum dolor sit !
+                   </p> 
+                </div>
+                </div>
+
+                <div class="card d-none d-lg-block ml-3 my-2 p-0">
+                        <div class="card-img-top d-flex align-items-lg-center bg-white text-black  ">
+                            <div>
+                                <img class="img-fluid" src="img/icon_Life.png" style="height:40px; width:40px;">
+                            </div>
+                            <p class="ml-2 p-0 m-0">Home <br>
+                                Lorem ipsum dolor sit !
+                           </p> 
+                        </div>
+                        </div>
+
+    <div class="card d-none d-lg-block ml-3 my-2 p-0">
+                        <div class="card-img-top d-flex align-items-lg-center bg-white text-black  ">
+                            <div>
+                                <img class="img-fluid" src="img/icon_Life.png" style="height:40px; width:40px;">
+                            </div>
+                            <p class="ml-2 p-0 m-0">Entertainment <br>
+                                Lorem ipsum dolor sit !
+                           </p> 
+                        </div>
+                        </div>
+
+    <div class="card d-none d-lg-block ml-3 my-2 p-0">
+                        <div class="card-img-top d-flex align-items-lg-center bg-white text-black  ">
+                            <div>
+                                <img class="img-fluid" src="img/icon_Life.png" style="height:40px; width:40px;">
+                            </div>
+                            <p class="ml-2 p-0 m-0">Work/Business <br>
+                                Lorem ipsum dolor sit !
+                           </p> 
+                        </div>
+                        </div>
+
+                        <div class="card d-none d-lg-block ml-3 my-2 p-0">
+                                <div class="card-img-top d-flex align-items-lg-center bg-white text-black  ">
+                                    <div>
+                                        <img class="img-fluid" src="img/icon_Life.png" style="height:40px; width:40px;">
+                                    </div>
+                                    <p class="ml-2 p-0 m-0">Health/Charity <br>
+                                        Lorem ipsum dolor sit !
+                                   </p> 
+                                </div>
+                                </div>
+
+
+    <!-- RANK YOUR GOALS MENU HEADER -->
+    <div
+        class=" rank mt-3 ml-4 rankmenu">
+        <h6>RANK GOALS
+        </h6>
+    </div>
+
+    <!-- MENU ITEMS -->
+    <div class="card d-none d-lg-block ml-3 my-2 p-0">
+            <div class="card-img-top d-flex align-items-lg-center bg-white text-black  ">
+                <div>
+                    <img class="img-fluid" src="img/icon_rank goals.png" style="height:40px; width:40px;">
+                </div>
+                <p class="ml-2 p-0 m-0">Rank Goals <br>
+                    Lorem ipsum dolor sit !
+               </p> 
+            </div>
+            </div>
+
+    <!-- YOUR FINANCIAL SNAPSHOT MENU HEADER -->
+    <div
+        class=" rank mt-3 ml-4 financialmenu">
+        <h6>YOUR FINANCIAL
+            SNAPSHOT</h6>
+    </div>
+
+    <!-- MENU ITEMS -->
+    <div class="card d-none d-lg-block ml-3 my-2 p-0">
+            <div class="card-img-top d-flex align-items-lg-center bg-white text-black  ">
+                <div>
+                    <img class="img-fluid" src="img/icon_snapshot.png" style="height:40px; width:40px;">
+                </div>
+                <p class="ml-2 p-0 m-0">Your Financial Snapshot <br>
+                    Lorem ipsum dolor sit !
+               </p> 
+            </div>
+            </div>
+
+    <!-- WORKING ON MY GOALS MENU HEADER -->
+    <div
+        class=" rank mt-3 ml-4 goalsmenu">
+        <h6>WORKING ON MY
+            GOALS</h6>
+    </div>
+
+    <!-- MENU ITEMS -->
+    <div class="card d-none d-lg-block ml-3 my-2 p-0">
+            <div class="card-img-top d-flex align-items-lg-center bg-white text-black  ">
+                <div>
+                    <img class="img-fluid" src="img/icon_working on goal.png" style="height:40px; width:40px;">
+                </div>
+                <p class="ml-2 p-0 m-0">Working on my Goals <br>
+                    Lorem ipsum dolor sit !
+               </p> 
+            </div>
+            </div>
+</div>
+</div>  
+
+<!-- MAIN CONTENT AREA -->
+<div class="mainContentOverFlowScroll content">
+    <div class="innerScroll">
+<div class="col-lg-9 ">
+<h5>Family Content</h5>
+<div class="input-group">
+    <div
+        class="input-group-prepend">
+        <span
+            class="input-group-text">Text</span>
+    </div>
+    <input
+        class="form-control"
+        type="text"
+        placeholder="Recipient's text"
+        aria-label="Recipient's ">
+    <div
+        class="input-group-append">
+        <span
+            class="input-group-text">Text</span>
+    </div>
+</div>
+
+<ul>
+
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    </div>  <!-- col-9 -->
+</div> <!-- innerScroll -->
+</div> <!-- contentOverFlowScroll -->
+    </div>  <!-- top row -->
+    
+<!-- FOOTER -->
+<div class ="main-footer">
+        <div class="row offset-md-3 bg-dark text-white mr-0 footerradius " style=" border-bottom-right-radius: 15px !important;" >
+            <!-- PROGRESS BAR -->
+            <div class="col-md-7 col">
+                    <div>10% completed
+                    </div>
+                    <div class="progress mb-1"
+                        style="height: 10px; width: 40%;">
+                        <div class="progress-bar bg-success "
+                            style="width:25%">
+                        </div>
+                    </div>
+                </div>
+                <!-- ARROW ICONS -->
+                <div
+                    class="col-md-5 col text-lg-right text-md-right text-sm-right">
+                    <i class="fas fa-arrows-alt fa-2x mr-3 pr-4 footerarrows"
+                        style="background-color:transparent; border: none; color: #923a7f;"></i>
+
+                    <i class="fas fa-arrow-up fa-2x mr-3 pr-4 footerarrowup"
+                        style="background-color:transparent; border: none; color: #923a7f;"></i>
+
+                    <i class="fas fa-arrow-down fa-2x mr-3 pr-4 footerarrowdown"
+                        style="background-color:transparent; border: none; color: #923a7f;"></i>
+                </div>
+        </div>
+    </div>
+                                                   
+    </div>  <!-- container boxshadow -->
+
+   
+
+
+       
+      
+    <!-- jquery, popper and bootstrap cdn links -->
+    <script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

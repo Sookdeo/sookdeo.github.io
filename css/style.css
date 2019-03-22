@@ -1,0 +1,335 @@
+
+#mainbody{
+    background-image: url(../img/BG-01.jpg);
+    background-size: cover;   
+}
+
+#loginbody {
+    height: 100%; 
+    background-color: #F2F2F3;
+}
+
+#regbody {
+    height: 100%; 
+    background-color: #F2F2F3;
+}
+
+.loginrow {
+    background-color: white;
+    border: 3px solid silver !important;
+}
+
+.welcome {
+    color: #923a7f;
+    font-family: Neutra Text;
+    text-align: center;
+    font-size: 2.6em;
+}
+
+.gstarted {
+    font-size: 14px;
+    font-family: Neutra Text;
+    color: #666766; 
+}
+
+.form-control {
+    outline: none !important;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.usernameicon {
+	position: relative;
+	top: 2px;
+	left: -1px;
+	width: 15px;
+	height: 15px;
+	color: #923a7f;
+    background-color: white ;
+    margin-top: 1em;
+	
+}  
+
+.passwordicon {
+	position: relative;
+	top: 13px;
+	left: -1px;
+	width: 15px;
+	height: 15px;
+	color: #923a7f;
+    background-color: white ;
+    margin-top: 1em;
+	
+}  
+
+  .fas{
+	position: relative;
+	top: 2px;
+	left: -1px;
+	width: 15px;
+	height: 15px;
+	background-color: white ;
+	color: #923a7f	
+} 
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none !important;
+        border: none !important;
+        border-bottom: 1px solid #ddd !important;
+  }
+    .btn-purple {
+        background-color: #2f1946 !important;
+        color: white;
+        width: 180px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+
+        .acct{
+            color: #BDBEC0;
+            font-size: 14px;
+        }
+
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+  
+    .signup, .signin {
+        color: #923a7f;
+        font-size: 14px;
+    }
+
+    ::placeholder {
+        font-size: 14px;
+    }
+
+   
+    /* MAIN SCREEN CSS */
+    
+/* Extra small devices (portrait phones)*/
+
+@media (max-width: 575px) {
+    .lifeobjmenu {
+        display: none;
+    }
+    .rankmenu{
+        display: none;
+    }
+    .financialmenu{
+        display: none;
+    }
+    .goalsmenu{
+        display: none;
+    } 
+    
+    .footerradius{
+        margin-left: 0%;
+    }
+
+    .content{
+        margin-top: -500px;
+    }
+
+    .mainContentOverFlowScroll {      
+        width: 240px;   
+        margin-left: 30px;  
+        
+    }  
+    
+    body {
+        overflow-y: scroll;
+    }
+  
+}
+
+/* Small devices (landscape phones) */
+
+@media (min-width: 576px) {
+    .lifeobjmenu {
+        display: none;
+    }
+    .rankmenu{
+        display: none;
+    }
+    .financialmenu{
+        display: none;
+    }
+    .goalsmenu{
+        display: none;
+    } 
+    
+    .content{
+        margin-top: -500px;
+    }
+
+    .footerradius{
+        margin-left: 0px;
+    }
+
+    .mainContentOverFlowScroll {      
+        width: 500px;   
+        margin-left: 25px;  
+        
+    }  
+    
+    body {
+        overflow-y: scroll;
+    }
+}
+
+ /* Medium devices (tablets) */
+
+ @media (min-width: 768px) {
+    .nav-item {
+        visibility: show;
+    }
+    .lifeobjmenu {
+        display: none;
+    }
+    .rankmenu{
+        display: none;
+    }
+    .financialmenu{
+        display: none;
+    }
+    .goalsmenu{
+        display: none;
+    } 
+    
+    .content{
+        margin-top: -500px;
+    }
+
+    .mainContentOverFlowScroll {      
+        width: 730px;   
+        margin-left: 25px;  
+        
+    } 
+
+    body {
+        overflow-y: scroll;
+    }
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 992px) {
+    .nav-item {
+        visibility: hidden;
+    }
+    .lifeobjmenu{
+        display: block;
+    }
+    .rankmenu{
+        display: block;
+    }
+    .financialmenu{
+        display: block
+    }
+    .goalsmenu{
+        display: block;
+    }
+    .content{
+        margin-top: 5px;
+    }
+
+    .footerradius{
+        margin-left: 390px;
+       
+    }
+
+    .mainContentOverFlowScroll {      
+        width: 1100px;   
+        margin-left: 25px;       
+    } 
+
+    body {
+        overflow: hidden;
+    }  
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200) {
+    .nav-item {
+        visibility: hidden;
+    }
+    .lifeobjmenu{
+        display: block;
+    }
+    .rankmenu{
+        display: block;
+    }
+    .financialmenu{
+        display: block
+    }
+    .goalsmenu{
+        display: block;
+    }
+    .content{
+        margin-top: 5px;
+    }
+
+    .footerradius{
+        margin-left: 390px;
+        margin-top: -40px;
+    }
+
+    .mainContentOverFlowScroll {      
+        width: 1200px;   
+        margin-left: 25px;  
+        
+    } 
+
+    body {
+        overflow-y: hidden;
+    }
+       
+}
+
+
+.menuOverFlowScroll {      
+        height: calc(100vh - 200px);
+        overflow-y: scroll;       
+  } 
+
+  .mainContentOverFlowScroll {      
+    height: calc(100vh - 160px);
+    overflow-y: scroll; 
+    background-image: url(../img/content_bg.jpg);
+    background-size: cover;
+    
+} 
+
+.main-footer{
+         opacity: 0.8;
+     } 
+
+.boxshadow {
+        box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.5);  
+     
+}
+
+.mainnavradius{
+    border-top-left-radius: 15px;
+    border-top-right-radius:   15px;
+}
+
+
+/* *Remove the scrollbar from Chrome, Safari, Edge and IE*/ 
+ ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+* {
+  -ms-overflow-style: none !important;
+}
+     
+
+
